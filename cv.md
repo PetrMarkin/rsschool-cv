@@ -16,7 +16,8 @@ I am 26 y.o. I live in the city of Sochi and work as a sales assistant. I decide
 * Self-reflection
 ## Code example
 Remove First and Last Character
-```function removeChar(str){
+```
+function removeChar(str){
  return str.slice(1,-1)
 };
 ```
