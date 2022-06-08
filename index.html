@@ -10,53 +10,82 @@
     <title>CV</title>
 </head>
 <body>
-    <header><h1>Markin Petr</h1></header>
+    <header>
+        <div class="header__main">
+            <div class="header__main-avatar">
+            <img class='avatar' src="foto.jpg" alt="My foto. The photo shows a young man in front of the wallpaper.">
+            </div>
+            <div class="header__main-info">
+                <h1>Markin Petr</h1>
+                <h3>Beginner Fron-End developer</h3>
+            </div>
+            <nav>
+                <ul class="nav__list">
+                    <li class="item"><a href="#Contacts">Contacts</a></li>
+                    <li class="item"><a href="#Few_words_about_myself">Few words about myself</a></li>
+                    <li class="item"><a href="#Hard_skills">Hard skills</a></li>
+                    <li class="item"><a href="#Soft_skills">Soft skills</a></li>
+                    <li class="item"><a href="#Code_example">Code example</a></li>
+                    <li class="item"><a href="#Education">Education</a></li>
+                    <li class="item"><a href="#Languages">Languages</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
     <main>
-        <section><h2>Contacts</h2>
-            <ul>
-                <li><strong>Telegram:</strong> PetrMarkin</li>
-                <li><strong>EMAIL:</strong> skyhome5041@icloud.com</li>
-                <li><strong>Discord:</strong> petrmarkin(@PetrMarkin)</li>
-                <li><strong>GitHub:</strong> Petr Markin</li>
-            </ul>
-        </section>
-        <section><h2>Few words about myself</h2>
-        <h3>I am 26 y.o. I live in the city of Sochi and work as a sales assistant. I decided to learn Web development, because it is interesting and relevant. I will devote all my free time to this and I am sure I will succeed.</h3>
-        </section>
-        <section><h2>Hard skills</h2></section>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git</li>
-            </ul>
-        <section><h2>Soft skills</h2>
-            <ul>
-                <li>Sociability</li>
-                <li>Critical thinking</li>
-                <li>Self-reflection</li>
-            </ul>
-        </section>
-        <section><h2>Code example</h2>
-            <h3>Remove First and Last Character</h3>
-            <code>
-                function removeChar(str){
-                    return str.slice(1,-1)
-                   };
-            </code>
-        </section>
-        <section><h2>Education</h2>
-            <ul>
-                <li>Kuban state agrarian university: Ecology</li>
-                <li>ITC: Web-development for beginers: HTML/CSS</li>
-            </ul>
-        </section>
-        <section><h2>Languages</h2>
-            <ul>
-                <li>Russian: native</li>
-                <li>English: A1 Begginer (I study on the Busu app every day)</li>
-            </ul>
-        </section>
+        <div class="main__left-side">
+            <section id="Contacts"><h2>Contacts</h2>
+                <ul>
+                    <li class="item"><strong>Telegram:</strong> <a href="https://t.me/PetrMarkin" target="_blank">PetrMarkin</a></li>
+                    <li class="item"><strong>EMAIL:</strong> <a href="mailto:skyhome5041@icloud.com" target="_blank">skyhome5041@icloud.com</a></li>
+                    <li class="item"><strong>Discord:</strong> <a href="https://discordapp.com/users/p.markin#4300/" target="_blank">petrmarkin(@PetrMarkin)</a></li>
+                    <li class="item"><strong>GitHub:</strong> <a href="https://github.com/PetrMarkin" target="_blank">Petr Markin</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="main__right-side">
+            <section><h2 id="Few_words_about_myself">Few words about myself</h2>
+                <p>I am 26 y.o. I live in the city of Sochi and work as a sales assistant. I decided to learn Web development, because it is interesting and relevant. I will devote all my free time to this and I am sure I will succeed.</p>
+            </section>
+            <section><h2 id="Hard_skills">Hard skills</h2></section>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                </ul>
+            <section><h2 id="Soft_skills">Soft skills</h2>
+                <ul>
+                    <li>Sociability</li>
+                    <li>Critical thinking</li>
+                    <li>Self-reflection</li>
+                </ul>
+            </section>
+            <section><h2 id="Code_example">Code example</h2>
+                <p>Remove First and Last Character</p>
+                <code>
+                    function removeChar(str){<br>
+                        return str.slice(1,-1)<br>
+                    }; 
+                </code>
+            </section>
+            <section><h2 id="Education">Education</h2>
+                <ul>
+                    <li>Kuban state agrarian university: Ecology</li>
+                    <li>ITC: Web-development for beginers: HTML/CSS</li>
+                </ul>
+            </section>
+            <section><h2 id="Languages">Languages</h2>
+                <ul>
+                    <li>Russian: native</li>
+                    <li>English: A1 Begginer (I study on the Busu app every day)</li>
+                </ul>
+            </section>
+        </div>
     </main>
-    <footer></footer> 
+    <footer>
+        <div class="year">2022</div>
+        <div class="logo"><a href="https://rs.school/js/" target="_blank"><img src="rs_school_js.svg" alt="Rolling scopes school logo"></a></div>
+        <div class="github"><a href="https://github.com/PetrMarkin" target="_blank"><img src="github-logo.svg" alt="GitHub logo"></a></div>
+    </footer> 
 </body>
 </html>
