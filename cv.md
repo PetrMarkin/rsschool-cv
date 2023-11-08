@@ -25,7 +25,7 @@ I am 28 y.o. I live in the city of Sochi and work as a sales assistant. I like w
 ****
 ## Code example
 #### Square Every Digit
-'''
+```
 function squareDigits(num){
   num = num.toString();
   let result = ''
@@ -36,7 +36,7 @@ function squareDigits(num){
   }
   return Number(result)
 }
-'''
+```
 ****
 ## Education
 * Kuban state agrarian university: Ecologist
